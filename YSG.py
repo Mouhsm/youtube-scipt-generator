@@ -40,7 +40,7 @@ st.markdown(
 )
 
 # Input fields
-user_input = st.text_area('Enter your idea:', height=80)
+user_input = st.text_area('Enter your idea:', height=50)
 minutes = st.number_input('Select video length (minutes):', min_value=0, max_value=120, value=0, step=1)
 seconds = st.number_input('Select video length (seconds):', min_value=0, max_value=59, value=0, step=1)
 
