@@ -7,7 +7,7 @@ API_KEY = os.getenv('GEMINI_API_KEY')
 
 # Set up the Streamlit app
 
-# Custom CSS for button styling
+# Custom CSS to hide streamlit header and footer, and for button styling
 st.markdown(
     """
     <style>
