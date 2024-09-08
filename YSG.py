@@ -6,13 +6,14 @@ import os
 API_KEY = os.getenv('GEMINI_API_KEY')
 
 # Set up the Streamlit app
-st.title('YouTube Script Generator')
-st.write('Create High-Quality YouTube Scripts Quickly and Easily!')
 
 # Custom CSS for button styling
 st.markdown(
     """
     <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    
     .stButton > button {
         background-color: #1f3a93;
         color: white;
